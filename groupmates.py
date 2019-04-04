@@ -16,7 +16,7 @@ groupmates = [
         "name": u"Зверь",
         "group": u"БВТ1702",
         "age": 19,
-        "marks": [4, 3, 5, 5, 4]
+        "marks": [3, 3, 3, 3, 3]
     },
     {
         "name": u"Даниил Вершинин",
@@ -52,4 +52,4 @@ def student_avg(avgMark, students):
     return matchingstudents
 
 
-print_students(student_avg(3.14, groupmates))
+print_students(student_avg(4, groupmates))
